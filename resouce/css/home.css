@@ -1,0 +1,150 @@
+.banner{
+  height: 180px;
+  color: #fff;
+  background: url(./../img/home/banner.jpg) center no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.banner h2{
+  font-size: 30px;
+  line-height: 35px;
+  padding-top: 35px;
+}
+.banner h4{
+  font-size: 15px;
+  padding-top: 16px;
+}
+
+.part{
+  background-color: #fff;
+  margin-top: 9px;
+}
+.part .tit{
+  position: relative;
+  height: 50px;
+  line-height: 50px;
+  font-size: 18px;
+  color: #333;
+  font-weight: 600;
+  text-align: center;
+  /* border-bottom: 1px solid #dcdcdc; */
+}
+.part:not(:nth-child(5)) .tit::after{
+  content: '';
+  width: 60px;
+  height: 1.5px;
+  background-color: #666;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left:-30px;
+}
+
+.whoami{
+  text-align: center;
+  padding-bottom: 25px;
+}
+.whoami p{
+  font-size: 16px;
+  line-height: 20px;
+  color: #666;
+  padding: 15px 0;
+}
+.whoami img{
+  display: inline-block;
+  width: 80%;
+}
+
+.product ul{
+  overflow: hidden;
+}
+.product li{
+  float: left;
+  width: 33.332%;
+  height: 115px;
+  text-align: center;
+}
+.product li:nth-child(2n-1){
+  background-color: #69a1ff;
+  color: #fff;
+}
+.product li:nth-child(2n){
+  background-color: #fff;
+  color: #69a1ff;
+}
+.product li img{
+  width: 55px;
+  padding: 12px 0 4px;
+}
+
+.idea img{
+  display: block;
+  width: 100%;
+  padding: 30px 0 55px;
+}
+
+.chuangke p{
+  height: 160px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #666;
+  background: url(./../img/home/part_img_03.png) center no-repeat;
+  background-size: auto 190px;
+  padding: 30px 10px 0;
+  text-align: center;
+}
+.league{
+  text-align: center;
+}
+.league img{
+  display: inline-block;
+}
+.league .info{
+  width: 80%;
+  padding: 30px 0;
+}
+.league .table{
+  width: 90%;
+}
+
+.DreamWorks{
+  text-align: center;
+  padding-bottom: 30px;
+}
+.DreamWorks img{
+  display: inline-block;
+  height: 90px;
+  margin: 30px auto 15px;
+}
+.DreamWorks p{
+  font-size: 16px;
+}
+
+.part-foot{
+  padding-bottom: 58px;
+}
+.part-foot img{
+  display: block;
+  width: 100%;
+}
+
+.fixed-button{
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  font-size: 16px;
+  background-color: #dd2727;
+  color: #fff;
+  text-align: center;
+}
+
+
+
+
+
+

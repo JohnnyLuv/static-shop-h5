@@ -1,0 +1,88 @@
+.search-cover{
+  position: fixed;
+  top: 55px;
+  width: 100%;
+  background-color: #fff;
+  padding: 12px 15px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.search-cover .search-box{
+  float: left;
+  position: relative;
+  height: 30px;
+  line-height: 30px;
+  padding-left: 40px;
+  background:#f3f4f8 url(./../img/community/icon_search.png) no-repeat;
+  background-size: 22px 20px;
+  background-position: 10px 5px;
+  border-radius: 15px;
+  width: calc( 100% - 60px - 40px )
+}
+.search-cover .search-box input{
+  border:none;
+  background-color: transparent;
+  outline: none;
+}
+.search-cover button{
+  float: left;
+  width: 60px;
+  border:none;
+  height: 30px;
+  line-height: 30px;
+  outline: none;
+  padding: 0;
+  background-color: transparent;
+}
+
+.news-list{
+  background: #fff;
+  padding-bottom: 40px;
+}
+.news-list .news-box{
+  padding: 10px;
+  border-bottom: 1px solid #eaeaea
+}
+.news-box dt{
+  line-height: 30px;
+  overflow: hidden;
+}
+.news-box dt a{
+  font-size: 20px;
+  font-weight: normal;
+  color: #000 !important;
+}
+.news-box dd{
+  font-size: 14px;
+  font-weight: normal;
+  color: #999 !important;
+}
+.news-box dd.subtitle{
+  margin-bottom: 8px;
+  height: 22px;
+  line-height: 1.6;
+  overflow: hidden;
+}
+a.blue:link, a.blue:visited, a.blue:hover {
+  color: #0086CE;
+  text-decoration: none;
+}
+.news-box dd.m-img{
+  max-height: 180px;
+  overflow: hidden;
+}
+.news-box dd.summary{
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+
+
+
+
+
+
+

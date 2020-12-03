@@ -1,0 +1,483 @@
+/* home */
+.pf-mobile-home {
+  padding-bottom: 100px;
+  background: no-repeat scroll center center url(./../img/wholesale/bg_img.jpg) #fff;
+  background-size: cover;
+}
+
+.pf-mobile-home h1 {
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+  margin: 0;
+  padding: 50px 0 30px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.pf-mobile-home .pf-mobile-page {
+  background-color: #fff;
+  margin: 10px;
+  padding: 20px;
+  position: relative;
+  height: 355px;
+  overflow: hidden;
+  -webkit-transition: height 0.5s;
+  -moz-transition: height 0.5s;
+  transition: height 0.5s;
+}
+.pf-mobile-home .pf-mobile-page h2 {
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 6px;
+  color: #333;
+  font-weight: 400;
+}
+.pf-mobile-home .pf-mobile-page p {
+  font-size: 14px;
+  color: #666;
+  line-height: 24px;
+}
+.pf-mobile-home .pf-mobile-page>p {
+  white-space: nowrap;
+}
+.pf-mobile-home .pf-mobile-page .pf-mobile-page-detail {
+  display: block;
+  padding-top: 40px;
+  overflow: hidden;
+  -webkit-border-image: url(./../img/wholesale/border.png) 2 stretch;
+  -moz-border-image: url(./../img/wholesale/border.png) 2 stretch;
+  border-image: url(./../img/wholesale/border.png) 2 stretch;
+  border-top: 2px solid #e5e5e5;
+  margin-top: 10px;
+  border-top-width: 1px;
+}
+.pf-mobile-home .pf-mobile-page .pf-mobile-page-detail ul li {
+  float: left;
+  width: 33.33%;
+  text-align: center;
+}
+.pf-mobile-home .pf-mobile-page .pf-mobile-page-detail ul li h3 {
+  font-size: 14px;
+  line-height: 20px;
+  color: #333;
+  margin: 15px 0 5px;
+}
+.pf-mobile-home .pf-mobile-page .pf-mobile-page-detail ul li p {
+  color: #666;
+  font-size: 12px;
+  line-height: 19px;
+}
+.pf-btn-more {
+  display: block;
+  margin: 40px auto 20px;
+  width: 140px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  color: #3388FF;
+  border: 1px solid #3388FF;
+  border-radius: 2px;
+  text-align: center;
+}
+
+
+/* market */
+.pf-mobile-manage {
+  background: #fff;
+}
+.pf-mobile-manage .manage-banner {
+  height: 190px;
+  text-align: center;
+  background: transparent url(./../img/wholesale/bg_mm.png) no-repeat center center;
+  background-size: cover;
+  color: #fff;
+}
+.pf-mobile-manage .manage-banner h1 {
+  font-size: 24px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  margin: 0;
+  font-weight: 400;
+}
+.pf-mobile-manage .manage-banner p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 24px;
+}
+.pf-mobile-manage .manage-problems {
+  padding-bottom: 30px;
+}
+.pf-section-title {
+  font-size: 20px;
+  line-height: 24px;
+  margin: 0;
+  padding: 60px 0 50px;
+  text-align: center;
+}
+.pf-mobile-manage .manage-problems ul li {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.pf-mobile-manage .manage-problems ul li img {
+  margin-bottom: 25px;
+}
+.pf-mobile-manage .manage-problems ul li p {
+  color: #666;
+  font-size: 16px;
+}
+.pf-mobile-manage .manage-solution {
+  text-align: center;
+  padding-bottom: 275px;
+  background: transparent url(./../img/wholesale/mm_phone.png) no-repeat center bottom;
+  background-size: 181px 275px;
+  -webkit-border-image: url(./../img/wholesale/border.png) 2 stretch;
+  -moz-border-image: url(./../img/wholesale/border.png) 2 stretch;
+  border-image: url(./../img/wholesale/border.png) 2 stretch;
+  border-top: 2px solid #e5e5e5;
+  border-bottom: 2px solid #e5e5e5;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+}
+.pf-section-title {
+  font-size: 20px;
+  line-height: 24px;
+  margin: 0;
+  padding: 60px 0 50px;
+  text-align: center;
+}
+.pf-mobile-manage .manage-solution p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #656565;
+}
+.pf-mobile-manage .manage-solution ul {
+  padding-top: 20px;
+}
+.pf-mobile-manage .manage-solution ul li {
+  margin: 60px 0;
+}
+.pf-mobile-manage .manage-solution ul h3 {
+  font-size: 18px;
+  line-height: 36px;
+  margin: 10px 0;
+}
+.pf-mobile-manage .manage-solution ul p {
+  font-size: 12px;
+  line-height: 24px;
+  color: #999;
+}
+.pf-mobile-manage .manage-feature {
+  border-bottom-width: 1px;
+}
+.pf-mobile-manage .manage-feature {
+  -webkit-border-image: url(./../img/wholesale/border.png) 2 stretch;
+  -moz-border-image: url(./../img/wholesale/border.png) 2 stretch;
+  border-image: url(./../img/wholesale/border.png) 2 stretch;
+  border-bottom: 2px solid #e5e5e5;
+  border-bottom-width: 1px;
+}
+.pf-mobile-manage .manage-feature .pf-section-title {
+  padding-bottom: 60px;
+}
+.pf-mobile-manage .manage-feature ul li {
+  width: 50%;
+  float: left;
+  text-align: center;
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 80px;
+}
+.pf-mobile-manage .manage-feature ul li img {
+  margin-bottom: 10px;
+}
+.pf-mobile-manage .manage-usage {
+  padding-bottom: 80px;
+  text-align: center;
+}
+.pf-section-title {
+  font-size: 20px;
+  line-height: 24px;
+  margin: 0;
+  padding: 60px 0 50px;
+  text-align: center;
+}
+.pf-mobile-manage .manage-change {
+  background: transparent url(./../img/wholesale/bg_mm2.png) no-repeat center center;
+  background-size: cover;
+  padding-bottom: 40px;
+}
+.pf-mobile-manage .manage-change .pf-section-title {
+  color: #fff;
+}
+.pf-mobile-manage .manage-change table {
+  table-layout: fixed;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  color: #D2D2D2;
+}
+.pf-mobile-manage .manage-change table td {
+  padding-bottom: 5px;
+  line-height: 24px;
+}
+.pf-mobile-manage .manage-change table strong {
+  color: #fff;
+  font-size: 14px;
+  display: block;
+  padding-bottom: 5px;
+}
+.pf-mobile-manage .manage-change table td {
+  padding-bottom: 5px;
+  line-height: 24px;
+}
+.pf-btn {
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  color: #fff;
+  background-color: #FFC000;
+  text-align: center;
+  display: inline-block;
+  font-size: 12px;
+  border-radius: 2px;
+}
+.pf-btn-green {
+  background-color: #71BF41;
+}
+.pf-mobile-manage .manage-change table a {
+  color: #D2D2D2;
+  cursor: default;
+}
+.pf-mobile-manage .manage-change table .pf-btn {
+  color: #685311;
+  width: 110px;
+}
+.pf-mobile-manage .manage-change table .arrow {
+  padding-top: 10px;
+}
+.pf-mobile-manage .manage-change table .pf-btn-green {
+  color: #fff;
+}
+.pf-mobile-manage .manage-change table .arrow-down {
+  padding-top: 20px;
+}
+.pf-mobile-manage .manage-change table h5 {
+  color: #fff;
+  font-size: 18px;
+  line-height: 40px;
+  padding-bottom: 0;
+}
+.pf-btn-white {
+  background-color: #fff;
+  color: #656565;
+}
+.pf-mobile-manage .manage-change table .pf-btn-white {
+  color: #656565;
+  width: 100px;
+}
+
+.footer .footer-nav-container {
+  padding: 0 30px;
+  height: 160px;
+}
+
+
+/* seller */
+.pf-mobile-dangkou {
+  background: #fff;
+}
+.pf-mobile-dangkou .dangkou-banner {
+  height: 190px;
+  text-align: center;
+  background: transparent url(./../img/wholesale/bg_mk.jpg) no-repeat center center;
+  background-size: cover;
+  color: #fff;
+}
+.pf-mobile-dangkou .dangkou-banner h1 {
+  font-size: 24px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  margin: 0;
+  font-weight: 400;
+  line-height: 33px;
+}
+.pf-mobile-dangkou .dangkou-banner p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 24px;
+}
+.pf-mobile-dangkou .dangkou-problems {
+  background-color: #f8f8f8;
+  padding-bottom: 40px;
+}
+.pf-mobile-dangkou .dangkou-problems ul li {
+  font-size: 16px;
+  color: #666;
+  height: 22px;
+  line-height: 1;
+  background: no-repeat scroll left 0 url(./../img/wholesale/list_icon.png) transparent;
+  background-size: 15px;
+  margin: 0 0 30px 70px;
+  padding-left: 18px;
+}
+.pf-mobile-dangkou .dangkou-better {
+  background: no-repeat scroll 0 0 url(./../img/wholesale/bg_mk2.jpg) transparent;
+  background-size: cover;
+  color: #fff;
+  padding-bottom: 30px;
+}
+.pf-section-title {
+  font-size: 20px;
+  line-height: 24px;
+  margin: 0;
+  padding: 60px 0 50px;
+  text-align: center;
+}
+.pf-mobile-dangkou .dangkou-better .pf-section-title {
+  color: #fff;
+}
+.pf-mobile-dangkou .dangkou-better ul li {
+  width: 50%;
+  float: left;
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 14px;
+}
+.pf-mobile-dangkou .dangkou-better ul li img {
+  margin-bottom: 15px;
+}
+.pf-mobile-dangkou .dangkou-pros {
+  padding-bottom: 30px;
+}
+.pf-mobile-dangkou .dangkou-pros ul li {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.pf-mobile-dangkou .dangkou-pros ul li img {
+  margin-bottom: 10px;
+}
+.pf-mobile-dangkou .dangkou-pros ul li p {
+  color: #666;
+  font-size: 16px;
+}
+.pf-mobile-dangkou .dangkou-feature {
+  -webkit-border-image: url(./../img/wholesale/border.png) 2 stretch;
+  -moz-border-image: url(./../img/wholesale/border.png) 2 stretch;
+  border-image: url(./../img/wholesale/border.png) 2 stretch;
+  border-top: 2px solid #e5e5e5;
+  padding-bottom: 20px;
+  border-top-width: 1px;
+}
+.pf-mobile-dangkou .dangkou-feature ul li {
+  float: left;
+  width: 25%;
+  margin-bottom: 60px;
+  text-align: center;
+}
+.pf-mobile-dangkou .dangkou-feature ul li img {
+  margin-bottom: 20px;
+}
+.pf-mobile-dangkou .dangkou-feature ul li p {
+  color: #666;
+  font-size: 12px;
+}
+
+
+/* buyer */
+.pf-mobile-market {
+  background: #fff;
+}
+.pf-mobile-market .market-banner {
+  height: 190px;
+  text-align: center;
+  background: transparent url(./../img/wholesale/bg_buyer.png) no-repeat center center;
+  background-size: cover;
+  color: #fff;
+}
+.pf-mobile-market .market-banner h1 {
+  font-size: 24px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  margin: 0;
+  font-weight: 400;
+}
+.pf-mobile-market .market-banner p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 24px;
+}
+.pf-mobile-market .market-problems {
+  padding-bottom: 40px;
+}
+.pf-section-title {
+  font-size: 20px;
+  line-height: 24px;
+  margin: 0;
+  padding: 60px 0 50px;
+  text-align: center;
+}
+.pf-mobile-market .market-problems ul li {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.pf-mobile-market .market-problems ul li img {
+  margin-bottom: 25px;
+}
+.pf-mobile-market .market-problems ul li p {
+  color: #666;
+  font-size: 16px;
+}
+.pf-mobile-market .market-better {
+  background: no-repeat scroll 0 0 url(./../img/wholesale/bg_buyer2.png) transparent;
+  background-size: cover;
+  color: #fff;
+  padding-bottom: 30px;
+}
+.pf-section-title {
+  font-size: 20px;
+  line-height: 24px;
+  margin: 0;
+  padding: 60px 0 50px;
+  text-align: center;
+}
+.pf-mobile-market .market-better .pf-section-title {
+  color: #fff;
+  padding-bottom: 10px;
+}
+.pf-section-desc {
+  font-size: 12px;
+  text-align: center;
+  color: #fff;
+  margin: 0 30px 50px;
+  line-height: 24px;
+}
+.pf-mobile-market .market-better ul li {
+  width: 50%;
+  float: left;
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 14px;
+}
+.pf-mobile-market .market-better ul li img {
+  margin-bottom: 15px;
+}
+.pf-mobile-market .market-feature .pf-section-title {
+  padding-bottom: 80px;
+}
+.pf-mobile-market .market-feature ul li {
+  float: left;
+  width: 50%;
+  margin-bottom: 80px;
+  text-align: center;
+}
+.pf-mobile-market .market-feature ul li img {
+  margin-bottom: 15px;
+}
+.pf-mobile-market .market-feature ul li p {
+  color: #666;
+  font-size: 14px;
+}
+
+
+

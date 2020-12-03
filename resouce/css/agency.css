@@ -1,0 +1,55 @@
+.mobile-agency{
+  background: #fff;
+}
+.mobile-agency .banner {
+  height: 190px;
+  text-align: center;
+  background: transparent url(./../img/agency/bg_img.jpg) no-repeat center center;
+  background-size: cover;
+  color: #fff;
+}
+.mobile-agency .banner h1 {
+  font-size: 24px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  margin: 0;
+  font-weight: 400;
+  line-height: 33px;
+}
+.mobile-agency .banner p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 24px;
+}
+.no-time{
+  background-color: #fff;
+  text-align: center;
+}
+.no-time h2{
+  font-size: 18px;
+  color: #333;
+  font-weight: 400;
+  line-height: 34px;
+  padding-top: 26px;
+}
+.no-time p{
+  font-size: 14px;
+  color: #666;
+  line-height: 24px;
+  padding-bottom: 26px;
+}
+.no-time img{
+  display: block;
+  width: 100%;
+}
+.footer .footer-nav-container {
+  padding: 0 30px;
+  height: 110px;
+}
+.footer .section-contact .text strong{
+  color: #333;
+}
+
+
+
+

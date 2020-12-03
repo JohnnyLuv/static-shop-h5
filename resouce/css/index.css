@@ -1,0 +1,187 @@
+.banner img{
+  display: block;
+  width: 100%;
+}
+
+.feature-list {
+  padding: 15px 10px;
+}
+.main-feature {
+  background-color: #fff;
+  -webkit-box-shadow: 0 2px 8px 0 rgba(0,0,0,.06);
+  box-shadow: 0 2px 8px 0 rgba(0,0,0,.06);
+  margin-bottom: 15px;
+  padding: 0 20px;
+  overflow: hidden;
+}
+.main-feature__title {
+  overflow: hidden;
+  position: relative;
+}
+.main-feature__title:before {
+  content: "";
+  position: absolute;
+  -webkit-transition: all .1s ease-in-out;
+  -moz-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+  right: 0;
+  top: 25px;
+  width: 18px;
+  height: 10px;
+  background-size: 18px 10px;
+  background-image: url(./../img/index/icon_toggle.png);
+}
+.main-feature.active .main-feature__title:before {
+  -webkit-transform: rotate(0);
+  -moz-transform: rotate(0);
+  -ms-transform: rotate(0);
+  transform: rotate(0);
+}
+.main-feature__title h2 {
+  color: #333;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 18px 0 0 55px;
+}
+.main-feature__title p {
+  color: #666;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 0 0 18px 55px;
+}
+.main-feature__content {
+  position: relative;
+  overflow: hidden;
+  display: none;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+}
+.main-feature.active .main-feature__content, 
+.main-feature.active .main-feature__content-more {
+  display: block;
+}
+.main-feature__content-item {
+  margin-bottom: 15px;
+}
+.main-feature__content-item:first-child {
+  margin-top: 15px;
+}
+.main-feature__content-title {
+  color: #333;
+  font-size: 14px;
+  line-height: 24px;
+}
+.main-feature__content-desc {
+  color: #999;
+  font-size: 14px;
+  line-height: 24px;
+}
+.main-feature__content-more {
+  display: none;
+  font-size: 14px;
+  line-height: 20px;
+  color: #38f;
+  text-align: center;
+  margin: 10px 0;
+}
+.icon-block {
+  display: inline-block;
+}
+.icon-feature-1,
+.icon-feature-2,
+.icon-feature-3,
+.icon-feature-4,
+.icon-feature-5 {
+  width: 40px;
+  height: 40px;
+  background-image: url(./../img/index/icons_feature.png);
+  background-size: 184px 164px;
+}
+.main-feature .icon-block {
+  float: left;
+  margin-top: 25px;
+}
+.icon-feature-1 {
+  background-position: -124px -62px;
+}
+.icon-feature-2 {
+  background-position: 0 -124px;
+}
+.icon-feature-3 {
+  background-position: -42px -124px;
+}
+.icon-feature-4 {
+  background-position: -84px -124px;
+}
+.icon-feature-5 {
+  background-position: -126px -124px;
+}
+
+.main-content{
+  padding: 15px 10px;
+  text-align: center;
+  background-color: #fff;
+}
+.main-content li{
+  padding: 65px 20px 0;
+}
+.main-content li h2{
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+.main-content li p{
+  font-size: 14px;
+  line-height: 24px;
+  color: #999;
+  margin-bottom: 15px;
+}
+.main-content li img{
+  display: inline-block;
+  width: 100px;
+}
+
+.full-case {
+  position: relative;
+  background-color: #fff;
+  text-align: center;
+  padding: 50px 0 0;
+}
+.full-case h2 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 40px;
+}
+.full-case .full-item {
+  margin-bottom: 50px;
+}
+.full-item i {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  background-image: url(./../img/index/full_case.png);
+  background-size: 302px 302px;
+}
+.icon-full-1 {
+  background-position: 0 0;
+}
+.icon-full-2 {
+  background-position: -152px 0;
+}
+.icon-full-3 {
+  background-position: 0 -152px;
+}
+.full-case .full-item h3 {
+  font-size: 16px;
+  color: #333;
+  margin: 15px 0;
+}
+.full-case .full-item p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #666;
+}

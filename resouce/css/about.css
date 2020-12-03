@@ -1,0 +1,258 @@
+.about-us {
+  overflow: hidden;
+}
+.top-image {
+  height: 240px;
+  background: url(./../img/about/bg_img.jpg) no-repeat 50%;
+  background-size: cover;
+}
+.summary-container {
+  background-color: #fff;
+  padding: 50px 30px 60px;
+}
+h2 {
+  text-align: center;
+  font-size: 20px;
+}
+.summary-container p {
+  line-height: 26px;
+  text-align: left;
+  margin-top: 15px;
+}
+.our-beliefs-container {
+  background-color: #fff;
+  padding: 48px 0 61px;
+  position: relative;
+}
+.poser-logo-container {
+  background-color: #fff;
+  height: 100px;
+  width: 87%;
+  margin: 0 auto 30px;
+}
+.poser-logo-letters {
+  margin: 0 20px;
+}
+.poser-logo-letters li {
+  width: 20%;
+  height: 48px;
+  float: left;
+}
+.poser-logo-letters li .poser-logo-letter {
+  margin: auto;
+  width: 48px;
+  height: 48px;
+  font-size: 36px;
+  text-align: center;
+  color: #fff;
+  border-radius: 4px;
+  line-height: 48px;
+  -webkit-backface-visibility: hidden;
+}
+.poser-logo-letters li .letter-p {
+  background-color: #38f;
+  -webkit-transform: rotate(-4deg) translateY(-7px);
+  -moz-transform: rotate(-4deg) translateY(-7px);
+  -ms-transform: rotate(-4deg) translateY(-7px);
+  transform: rotate(-4deg) translateY(-7px);
+}
+.poser-logo-letters li .letter-o {
+  background-color: #4b0;
+  -webkit-transform: rotate(0deg) translateY(0);
+  -moz-transform: rotate(0deg) translateY(0);
+  -ms-transform: rotate(0deg) translateY(0);
+  transform: rotate(0deg) translateY(0);
+}
+.poser-logo-letters li .letter-s {
+  background-color: #0c9;
+  -webkit-transform: rotate(3deg) translateY(-9px);
+  -moz-transform: rotate(3deg) translateY(-9px);
+  -ms-transform: rotate(3deg) translateY(-9px);
+  transform: rotate(3deg) translateY(-9px);
+}
+.poser-logo-letters li .letter-e {
+  background-color: #fc0;
+  -webkit-transform: rotate(-2deg) translateY(-19px);
+  -moz-transform: rotate(-2deg) translateY(-19px);
+  -ms-transform: rotate(-2deg) translateY(-19px);
+  transform: rotate(-2deg) translateY(-19px);
+}
+.poser-logo-letters li .letter-r {
+  background-color: #f60;
+  -webkit-transform: rotate(6deg) translateY(-7px);
+  -moz-transform: rotate(6deg) translateY(-7px);
+  -ms-transform: rotate(6deg) translateY(-7px);
+  transform: rotate(6deg) translateY(-7px);
+}
+.our-beliefs-container p {
+  padding-top: 15px;
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+}
+.our-beliefs-text {
+  width: 80%;
+  min-width: 320px;
+  margin: 40px auto 0;
+}
+.our-beliefs-text .keyword-container {
+  position: relative;
+  height: 90px;
+}
+.our-beliefs-text .lightgrey-container {
+  background-color: #f8f8f8;
+}
+.our-beliefs-text .keyword-text {
+  display: inline-block;
+  position: absolute;
+  left: 25px;
+  top: 13px;
+}
+.our-beliefs-text .keyword-text h2 {
+  padding-top: 10px;
+  text-align: left;
+}
+.our-beliefs-container p {
+  padding-top: 15px;
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+}
+.our-beliefs-text .keyword-text p {
+  margin: 0;
+  text-align: left;
+  padding-top: 8px;
+  color: #999;
+}
+.our-beliefs-text .keyword-description {
+  display: inline-block;
+  position: absolute;
+  top: 12px;
+  right: 25px;
+}
+.our-beliefs-text .keyword-description p {
+  margin: 0;
+  text-align: right;
+  padding-top: 13px;
+}
+.our-slogans-container {
+  background-color: #fff;
+  margin-top: 30px;
+  position: relative;
+}
+.our-slogans-container .slogans-title {
+  color: #333;
+  padding-top: 48px;
+  text-align: center;
+  font-size: 20px;
+}
+.our-slogans-container .slogans-title span {
+  background-position: 0!important;
+  padding-left: 28px;
+  background-size: 20px 20px!important;
+  background: url(./../img/about/icon_face.png) no-repeat;
+}
+.our-slogans-container .content-slide {
+  height: 343px;
+  max-width: 295px;
+  margin: auto;
+  background-color: #fff;
+  position: relative;
+}
+.our-slogans-container .content-slide .slide-title {
+  text-align: center;
+  padding-top: 50px;
+  line-height: 30px;
+  font-size: 20px;
+}
+.our-slogans-container .content-slide .slide-description {
+  padding-top: 10px;
+}
+.our-slogans-container .content-slide .slide-description p {
+  margin: 0 20px;
+  line-height: 26px;
+  color: #666;
+}
+.our-slogans-container .slide-image {
+  max-width: 280px;
+  margin: auto;
+  width: 100%;
+  height: 157px;
+  background-size: 280px 157px!important;
+  position: absolute;
+  bottom: 15px;
+  left: 7.5px;
+}
+.our-slogans-container .image-1 {
+  background: url(./../img/about/bg_01.png) no-repeat 50%;
+}
+.our-slogans-container .image-2 {
+  background: url(./../img/about/bg_02.png) no-repeat 50%;
+}
+.our-slogans-container .image-3 {
+  background: url(./../img/about/bg_03.png) no-repeat 50%;
+}
+.our-slogans-container .image-4 {
+  background: url(./../img/about/bg_04.png) no-repeat 50%;
+}
+.our-slogans-container .image-5 {
+  background: url(./../img/about/bg_05.png) no-repeat 50%;
+}
+.our-slogans-container .image-6 {
+  background: url(./../img/about/bg_06.png) no-repeat 50%;
+}
+.our-slogans-container .image-7 {
+  background: url(./../img/about/bg_07.png) no-repeat 50%;
+}
+.donts-container {
+  margin-top: 30px;
+  background-color: #fff;
+  height: 510px;
+  position: relative;
+}
+.donts-container .donts-title {
+  padding: 48px 0 44px;
+  color: #333;
+  text-align: center;
+  font-size: 20px;
+}
+.donts-container .donts-title span {
+  background-position: 0!important;
+  padding-left: 28px;
+  background-size: 20px 20px!important;
+  background: url(./../img/about/icon_close.png) no-repeat;
+}
+.donts-container li {
+  padding-top: 30px;
+  float: left;
+  width: 50%;
+}
+.donts-container .donts-img {
+  display: block;
+  margin: auto;
+  padding-bottom: 20px;
+  width: 70px;
+  height: 70px;
+  background-size: 70px 70px!important;
+}
+.donts-container .donts-img-1 {
+  background: url(./../img/about/icon_01.png) no-repeat 50%;
+}
+.donts-container .donts-img-2 {
+  background: url(./../img/about/icon_02.png) no-repeat 50%;
+}
+.donts-container .donts-img-3 {
+  background: url(./../img/about/icon_03.png) no-repeat 50%;
+}
+.donts-container .donts-img-4 {
+  background: url(./../img/about/icon_04.png) no-repeat 50%;
+}
+.donts-container p {
+  line-height: 20px;
+  font-size: 12px;
+  color: #666;
+  text-align: center;
+}
+
+
+
